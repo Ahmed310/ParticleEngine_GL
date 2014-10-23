@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ParticleEngine_GL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ParticleEngine_GL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="glut32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ParticleEngine_GL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="asserts/font.tga" />
+		<Unit filename="asserts/vtr.tga" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/Control.h" />
+		<Unit filename="include/Emitter.h" />
+		<Unit filename="include/GLEngine.h" />
+		<Unit filename="include/Light.h" />
+		<Unit filename="include/ListBox.h" />
+		<Unit filename="include/Particle.h" />
+		<Unit filename="include/Slider.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/Vector3.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Control.cpp" />
+		<Unit filename="src/Emitter.cpp" />
+		<Unit filename="src/GLEngine.cpp" />
+		<Unit filename="src/Light.cpp" />
+		<Unit filename="src/ListBox.cpp" />
+		<Unit filename="src/Particle.cpp" />
+		<Unit filename="src/Slider.cpp" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/Vector3.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

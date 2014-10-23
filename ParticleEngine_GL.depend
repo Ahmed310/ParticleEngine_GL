@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1413559432 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\main.cpp
+	<SDL/SDL.h>
+	"GLEngine.h"
+	"Button.h"
+	"ListBox.h"
+	"Slider.h"
+
+1413088576 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\glengine.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<cstdarg>
+	"Texture.h"
+	"Light.h"
+
+1413088502 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\texture.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<stdio.h>
+
+1413088523 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\light.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+
+1413316835 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\glengine.cpp
+	"GLEngine.h"
+
+1413088502 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\light.cpp
+	"Light.h"
+
+1413088502 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\texture.cpp
+	"Texture.h"
+
+1413316057 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\button.cpp
+	"Button.h"
+
+1413315940 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\button.h
+	"Control.h"
+
+1413097327 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\control.h
+	<list>
+	<string>
+	"GLEngine.h"
+
+1413309119 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\control.cpp
+	"Control.h"
+
+1413454654 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\listbox.cpp
+	"ListBox.h"
+
+1413454575 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\listbox.h
+	"Control.h"
+	<vector>
+
+1413480180 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\include\slider.h
+	"Control.h"
+
+1413483608 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\src\slider.cpp
+	"Slider.h"
+
+1413798905 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\main.cpp
+	<SDL/SDL.h>
+	"GLEngine.h"
+	"Button.h"
+	"ListBox.h"
+	"Slider.h"
+	"Emitter.h"
+
+1413088576 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\glengine.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<cstdarg>
+	"Texture.h"
+	"Light.h"
+
+1413088502 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\texture.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<stdio.h>
+
+1413088523 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\light.h
+	<openGL/gl.h>
+	<openGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+
+1413315940 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\button.h
+	"Control.h"
+
+1413097327 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\control.h
+	<list>
+	<string>
+	"GLEngine.h"
+
+1413454575 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\listbox.h
+	"Control.h"
+	<vector>
+
+1413480180 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\slider.h
+	"Control.h"
+
+1413833302 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\emitter.h
+	"Particle.h"
+
+1413799166 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\particle.h
+	"Vector3.h"
+	"GLEngine.h"
+	<list>
+
+1413798244 c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\include\vector3.h
+	<math.h>
+
+1413316057 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\src\button.cpp
+	"Button.h"
+
+1413309119 source:c:\ahmed's data\software projects\projects code blocks\particleengine_gl\particleengine_gl\src\control.cpp
+	"Control.h"
+
